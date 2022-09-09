@@ -1,0 +1,93 @@
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-500 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/roboto-v30-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+:root {
+  --color1: #1D1D1D;
+  --color2: #626262;
+}
+.my-navbar {
+    box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+}
+.btn-1 {
+  border-radius: 2px;
+  padding: 9px 20px;
+  margin-right: 27px;
+  border: 1px solid #E0E0E0;
+  background-color: #FFFFFF;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #1D1D1D;
+}
+.btn-1:hover {
+  background-color: #E0E0E0;
+}
+.basket {
+  padding-top: 22px;
+}
+.my-logo {
+  padding-bottom: 6px;
+}
+.form-control {
+  margin-top: 56px;
+  border: none;
+  border-bottom: 1px solid #757575;
+  border-radius: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.h1-1 {
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: 56px;
+  margin-bottom: 0;
+}
+.row {
+  margin-top: 16px;
+}
+.my-card-text1 {
+ font-weight: 400;
+ font-size: 14px;
+ color: #626262;
+}
+.my-card-text2 {
+ font-weight: 400;
+ font-size: 13px;
+ color: #1D1D1D;
+}
+.my-card-title {
+  font-weight: 400;
+  font-size: 16px;
+  color: #1D1D1D;
+}
+footer {
+  background-color: #262626;
+  margin-top: 80px;
+}
+.my-logo-footer {
+  margin-top: 56px;
+}
+.line-footer {
+  color: #FFFFFF;
+  margin-top: 40px;
+  margin-bottom: 0;
+  padding-bottom: 32px;
+}
