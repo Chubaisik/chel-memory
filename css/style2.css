@@ -45,7 +45,7 @@ body {
   padding-bottom: 6px;
 }
 .jumbotron {
-    background-image: url(/image/jumbo.png);
+    background-image: url(./image/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -239,7 +239,7 @@ footer {
   display: block;
   width: 14px;
   height: 8px;
-  background-image: url(/image/if_icon-ios7-arrow-back_211686.svg);
+  background-image: url(./image/if_icon-ios7-arrow-back_211686.svg);
   
 }
 .image-world {
@@ -253,7 +253,7 @@ footer {
   display: block;
   width: 15.72px;
   height: 15.72px;
-  background-image: url(/image/world.svg);
+  background-image: url(./image/world.svg);
 }
 .text-language {
   padding-left: 16px;
